@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Guess the footballer</string>
+    <string name="play_string">Play</string>
+    <string name="quit_string">Quit</string>
+    <string name="back_string">Back</string>
+    <string name="giveup_string">Give up</string>
+    <string name="submit_string">Submit</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="select_a_player">Select a player</string>
+    <string name="guesses_left">Guesses Left:</string>
+    <string name="max_guesses">8</string>
+    <string name="player_s_nationality">player\'s nationality</string>
+    <string name="player_s_league">player\'s league</string>
+    <string name="player_s_club">player\'s club</string>
+</resources>

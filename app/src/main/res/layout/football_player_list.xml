@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:layout_weight="11">
+
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="name"
+        android:layout_weight="2"/>
+
+    <ImageView
+        android:id="@+id/playerNationality"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:text="nationality"
+        android:layout_weight="2"
+        android:contentDescription="@string/player_s_nationality"/>
+
+    <ImageView
+        android:id="@+id/playerLeague"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:text="league"
+        android:layout_weight="2"
+        android:contentDescription="@string/player_s_league"/>
+
+    <ImageView
+        android:id="@+id/playerClub"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:text="club"
+        android:layout_weight="2"
+        android:contentDescription="@string/player_s_club"/>
+    <TextView
+        android:id="@+id/playerPosition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="position"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/playerAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="age"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/playerKitnum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="kitnum"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="select_a_player">Select a player</string>
+</resources>
